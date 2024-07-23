@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/dylanahsmith/visibility_monitor"
   spec.license       = "MIT"
 
-  spec.extensions    = ['ext/visibility_monitor_c/extconf.rb']
+  spec.extensions    = ['ext/visibility_monitor/extconf.rb']
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
